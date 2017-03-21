@@ -7,7 +7,7 @@ module.exports = {
             save: '保存',
             create: '新建',
             edit: '编辑',
-            cancel: '删除',
+            cancel: '取消',
             refresh: '刷新',
             add_filter: '添加过滤',
             remove_filter: '删除过滤',
