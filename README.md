@@ -1,1 +1,3 @@
-"# aor-language-chinese" 
+"# aor-language-chinese"
+
+#chinese translations for 'admin-on-rest'
