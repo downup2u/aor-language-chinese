@@ -22,6 +22,7 @@ module.exports = {
             show: '%{name} #%{id}',
             create: '新建 %{name}',
             delete: '删除 %{name} #%{id}',
+            dashboard: '控制台',
         },
         input: {
             image: {
@@ -51,10 +52,11 @@ module.exports = {
             logout: '注销',
         },
         notification: {
-            updated: '已更新',
-            created: '已新建',
-            deleted: '已删除',
-            item_doesnt_exist: 'L\'项目\'不存在',
+            updated: '记录已更新',
+            created: '记录已新建',
+            deleted: '记录已删除',
+            item_doesnt_exist: '记录不存在',
+            http_error: '服务器通讯错误',
         },
         validation: {
             required: '必须',
