@@ -37,6 +37,7 @@ module.exports = {
             about: '关于',
         },
         navigation: {
+      	    no_results: '找不到记录',
             page_out_of_boundaries: '%{page}不在范围内',
             page_out_from_end: '超过最后1页',
             page_out_from_begin: '超出第一页',
@@ -60,6 +61,12 @@ module.exports = {
         },
         validation: {
             required: '必须',
+            minLength: '至少%{min}个字符',
+            maxLength: '必须不大于%{max}个字符',
+            minValue: '至少是%{min}',
+            maxValue: '不超过%{max}',
+            number: '必须是数字',
+            email: '必须是合法的email地址',
         },
     },
 };
