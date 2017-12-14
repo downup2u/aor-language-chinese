@@ -11,6 +11,7 @@ module.exports = {
             refresh: '刷新',
             add_filter: '添加过滤',
             remove_filter: '删除过滤',
+			back: '返回',
         },
         boolean: {
             true: '是',
@@ -23,11 +24,17 @@ module.exports = {
             create: '新建 %{name}',
             delete: '删除 %{name} #%{id}',
             dashboard: '控制台',
+            not_found: '没有找到',
         },
         input: {
-            image: {
-                upload_several: '拖动一些文件或点击上传.',
+            file: {
+                upload_several:
+                    '拖动一些文件或点击上传.',
                 upload_single: '拖动一个文件或点击上传.',
+            },
+            image: {
+                upload_several: '拖动一些图片文件或点击上传.',
+                upload_single: '拖动一个图片文件或点击上传.',
             },
         },
         message: {
@@ -35,6 +42,8 @@ module.exports = {
             no: '否',
             are_you_sure: '你确定?',
             about: '关于',
+            not_found:
+                '输入了一个错误的URL,或者非法的超链接.',
         },
         navigation: {
       	    no_results: '找不到记录',
