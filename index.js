@@ -9,8 +9,8 @@ module.exports = {
             edit: '编辑',
             cancel: '取消',
             refresh: '刷新',
-            add_filter: '添加过滤',
-            remove_filter: '删除过滤',
+            add_filter: '添加搜索条件',
+            remove_filter: '删除搜索条件',
 			back: '返回',
         },
         boolean: {
